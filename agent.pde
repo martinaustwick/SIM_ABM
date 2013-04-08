@@ -17,7 +17,8 @@ class Agent
     {  
         //circle for location
         fill(255);
-        stroke(0);
+        noStroke();
+        //stroke(0);
         ellipse(p.x, p.y, 10, 10);
         //line for direction of travel
         stroke(0);

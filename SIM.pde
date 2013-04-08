@@ -9,7 +9,7 @@ ArrayList<Float> SIM(int i)
     /*
       This method encodes a simple singly-constrained spatial interaction model
       Yij = z_j^alpha exp(-beta*rij) /sum_k [z_k^alpha exp(-beta*rik)]
-      expressed for each home i as an output vector j
+      expressed for each home i as an output vector of js
     */
   
     //Pj array/vector, probability of going to j
