@@ -16,13 +16,14 @@ class Agent
     void display()
     {  
         //circle for location
-        fill(255);
-        noStroke();
+        //fill(255);
+        //noStroke();
         //stroke(0);
-        ellipse(p.x, p.y, 10, 10);
+        //ellipse(p.x, p.y, 10, 10);
         //line for direction of travel
-        stroke(0);
-        line(p.x, p.y, p.x + 5*v.x, p.y + 5*v.y);
+        stroke(0, 0, 0, 50);
+        //line(p.x, p.y, p.x + 5*v.x, p.y + 5*v.y);
+        point(p.x, p.y);
     }
     
     void decide(int i)

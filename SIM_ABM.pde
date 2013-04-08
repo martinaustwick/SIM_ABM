@@ -34,6 +34,7 @@ void setup()
   
 
   rectMode(CENTER);
+  background(255);
 }
 
 void draw()
