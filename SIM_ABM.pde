@@ -38,7 +38,7 @@ void setup()
 
 void draw()
 {
-  background(255);
+  //background(255);  
   for (int i = 0; i<agents.size(); i++)
   {
     agents.get(i).move();
